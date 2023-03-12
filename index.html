@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rekayasa Perangkat Lunak</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>R</span>PL</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#packages">snacks</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Taman Kota Tasikmalaya</h3>
+            <p>Taman kota Tasikmalaya di bangun oleh Direktorat Jenderal Cipta Karya Kementerian Pekerjaan Umum dan Perumahan Rakyat. Saat ini, pembangunan tahap satu dengan anggaran Rp 4,405 miliar yang dimulai sejak 16 Juli 2016 lalu baru mencapai 10 persen.
+                Wali Kota Tasikmalaya Budi Budiman menargetkan, akhir tahun ini, pembangunan tahap satu dapat segera selesai. "Dana pembangunan memang sepenuhnya dari pemerintah pusat, tetapi kami turut andil untuk mengawasi karena itu juga uang rakyat.
+            </p>
+            <a href="#" class="btn">temukan lebih banyak</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/video-4.mp4"></span>
+            <span class="vid-btn" data-src="images/video-1.mp4"></span>
+            <span class="vid-btn" data-src="images/video-2.mp4"></span>
+            <span class="vid-btn" data-src="images/video-3.mp4"></span>
+            <span class="vid-btn" data-src="images/video-5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/video-4.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading">
+            <span>a</span>
+            <span>b</span>
+            <span>o</span>
+            <span>u</span>
+            <span>t</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="row">
+
+                <div class="image">
+                    <img src="images/tamkot-bg-1.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>what makes our coffee special?</h3>
+                    <p>Taman kota Tasikmalaya di bangun oleh Direktorat Jenderal Cipta Karya Kementerian Pekerjaan Umum dan Perumahan Rakyat. Saat ini, pembangunan tahap satu dengan anggaran Rp 4,405 miliar yang dimulai sejak 16 Juli 2016 lalu baru mencapai
+                        10 persen.</p>
+                    <p>Wali Kota Tasikmalaya Budi Budiman menargetkan, akhir tahun ini, pembangunan tahap satu dapat segera selesai. "Dana pembangunan memang sepenuhnya dari pemerintah pusat, tetapi kami turut andil untuk mengawasi karena itu juga uang rakyat.</p>
+                    <p>Pembangunan tahap satu, kami harapkan bisa selesai tepat waktu, nanti kami minta pihak pengembang untuk menambah pegawai, nanti kita usulkan lagi, agar taman itu bisa diselesaikan seutuhnya dengan dana dari APBN," ucap Budi Budiman
+                        saat meninjau pembangunan taman di lahan eks Kantor Pemda Kabupaten Tasikmalaya, Jalan KHZ Mustafa, Jumat 16 September 2016.</p>
+                    <a href="#" class="btn">learn more</a>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- packages section starts  -->
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading">
+            <span>s</span>
+            <span>n</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/es kuwut.jpeg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> es kuwut</h3>
+                    <p>Kuwut memiliki arti kelapa dalam bahasa lokal, sehingga es kuwut pada dasarnya adalah es kelapa.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> Rp12.000 <span>Rp15.000</span> </div>
+                    <a href="#" class="btn">beli sekarang</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/kebab.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> kebab </h3>
+                    <p>Kebab merupakan makanan yang khas dari Timur Tengah yang berisi daging, sayuran, dan saus.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> rp15.000 <span>rp20.000</span> </div>
+                    <a href="#" class="btn">beli sekarang</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/milo.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> es kepal milo</h3>
+                    <p>merupakan gabungan es serut, fla Milo, susu Milo bubuk,ditambah berbagai macam toping di atasnya.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> rp10.000 <span>rp15.000</span> </div>
+                    <a href="#" class="btn">beli sekarang</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/sosis.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> sosis bakar </h3>
+                    <p>Sosis bakar adalah sosis panggang atau sosis barbeque yang merupakan salah satu olahan makanan yang terbuat dari daging.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> rp5.000 <span>rp15.000</span> </div>
+                    <a href="#" class="btn">beli sekarang</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/cilor.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> cilor </h3>
+                    <p>Cilor merupakan makanan khas Sunda disebut "aci" dalam Bahasa Sunda. Cilor sendiri merupakan singkatan dari aci dan telor. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> rp1000<span>rp2.500</span> </div>
+                    <a href="#" class="btn">beli sekarang</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/es abcd.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> es krim cincau </h3>
+                    <p>es krim cincau merupakan makanan yang terbuat dari campuran makanan yang terdiri dari cincau,alpukat,dan santan kelapan.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> rp10.000<span>rp12.000</span> </div>
+                    <a href="#" class="btn">beli sekarang</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- packages section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/gambar-1.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/gambar-2.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/gambar-3.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/gambar-4.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/gambar-5.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/gambar-6.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/alfi.jpeg" alt="">
+                        <h3>alfiana toyibatun nisa</h3>
+                        <p>Tempat ini sangat cocok dijadikan tempat berekresi dengan keluarga terutama pada anak-anak,karena di taman kota ini ada tempat khusus bermain anak yang cukup luas dan bersih si anakpun bisa mengasah perkembangan diri dan mengembangkan
+                            otak kanan.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/tiwi.jpeg" alt="">
+                        <h3>tiwi lismawati</h3>
+                        <p>Taman kota Tasikmalaya merupakan salah satu lokasi yang sangat bagus untuk dikunjungi, banyak yang jual makanan makanan ringan dan juga tempat ini juga sangat indah dan bisa memberikan sensasi yang berbeda dengan aktivitas kita
+                            sehari hari.
+                        </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/zahra.jpeg" alt="">
+                        <h3>zahra</h3>
+                        <p>Hey kalian tahu tidak wisata taman kota tasikmalaya memiliki pesona keindahan yang sangat menarik loh untuk dikunjungi. Sangat di sayangkan jika kalian berada di kota tasikmalaya tidak mengunjungi wisata taman kota yang mempunyai
+                            keindahan yang tiada duanya.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/City driver-pana.svg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="nama">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="nomor">
+                    <input type="text" placeholder="subjek">
+                </div>
+                <textarea placeholder="pesan" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="kirim pesan">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>lokasi</h3>
+                <a href="https://goo.gl/maps/LSxLuqZTcty48J8W8">tasikmalaya</a>
+                <a href="#">dan, Jl. KHZ. Mustofa Jl. Dewi Sartika No.61-69, Tawangsari, Kec. Tawang, Kab. Tasikmalaya, Jawa Barat 46112</a>
+            </div>
+            <div class="box">
+                <h3>tautan langsung</h3>
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#snacks">snacks</a>
+                <a href="#gallery">gallery</a>
+                <a href="#riview">review</a>
+                <a href="#contact">contact</a>
+            </div>
+            <div class="box">
+                <h3>ikuti kami</h3>
+                <a href="https://www.facebook.com/PemkotTsm">facebook</a>
+                <a href="https://instagram.com/kominfo_pemkot_tsm?igshid=YmMyMTA2M2Y=">instagram</a>
+                <a href="https://twitter.com/KominfoKotaTSM?t=eIJguWhlHrONMbhYg15L4Q&s=09">twitter</a>
+                <a href="https://youtube.com/c/PEMERINTAHKOTATASIKMALAYA">youtube</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit"> created by <span> fitira </span> | all rights reserved! </h1>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
